@@ -1,0 +1,99 @@
+:root {
+    --beige: #19b0a1;
+    --fond: #2b2b2b;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--fond);
+    color: #fff;
+}
+
+#load_text{
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Squid;
+}
+
+header {
+    background-color: var(--beige);
+    height: fit-content;
+}
+
+.logo{
+    height: 30px;
+    margin: 15px;
+    position: absolute;
+}
+
+@font-face { font-family: Squid; src: url('font/game_of_squids/Game_Of_Squids.otf'); } 
+
+.titre{
+    text-align: center;
+    font-family: Squid;
+    font-size: 18px;
+}
+
+#inscrit{
+    text-align: center;
+    font-size: 200%;
+}
+
+h1 {
+    margin: 0;
+}
+
+.loading{
+    position: absolute;
+    background-color: var(--beige);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.load{
+    height: 100px;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: var(--beige); /* Tomato */
+}
+
+nav a:hover {
+    background-color: var(--beige); /* Crimson */
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    display: none;
+    text-align: center;
+    padding: 20px;
+    background-color: var(--beige); /* Orange */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.inscript{
+    position: absolute;
+    left: 100px;
+    display: block;
+}
